@@ -204,6 +204,7 @@ margin-right: 51px;
 .tours__description-name{
     display: inline-block;
     vertical-align: top;
+    font-size: 16px;
 }
 .tours__about{
     color: #303030;
