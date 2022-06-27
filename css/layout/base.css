@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+
+a{
+   color: inherit;
+   text-decoration: none;
+}
+ul{
+    padding: 0px;
+    margin: 0px; 
+}
+ul li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*min-height: 600px;*/
+}
+.container--services{
+    background-color: #F2F2F2;
+}
+.title{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #fff;
+}
+.title--color--black{
+    color: #000;
+}
+.wrapper--bg{
+    background: url(../../img/1.png) top center, url(../../img/2.png) bottom 165px right, #001821;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.wrapper--services{
+    background: url(../../img/headline\ 1.png) top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.button{
+    background-color: #F5170E;
+    border-radius: 35px;
+    padding: 19px 41px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+.button.button__tour{
+    padding: 19px 30px;
+}
+.button:hover{
+    background-color: #DA0100;
+}
+.button.button--white{
+    background: #fff;
+    border: 1px solid #F5170E;
+    border-radius: 35px;
+    color: #F5170E;
+}
+.button.button--ginger{
+    background-color: #F5170E;
+    color: #fff;
+    border-radius: 35px;
+}
+.paginator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginator--black{
+    color: #000;
+    font-size: 16px;
+}
+.paginator__display, .paginator__list{
+    display: flex;
+    align-items: center;
+}
+.paginator__display{
+    margin-right: 25px;
+}
+.paginator__item{
+    font-weight: bold;
+    text-align: center;
+}
+.paginator__item--active .paginator__link{
+    background: #fff;
+    color: #F5170E;
+}
+.paginator--black .paginator__item--active .paginator__link{
+    background: #F5170E;
+    color:#fff;
+}
+.paginator__link{
+    display: block;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 32px;
+}
