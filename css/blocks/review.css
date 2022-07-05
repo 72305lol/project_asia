@@ -29,6 +29,7 @@
 .review__user::after{
     content: url(../../img/vk-blue\ 1.png);
     height: 30px;
+    margin-left: 12px;
 }
 .avatar{
     width: 140px;
