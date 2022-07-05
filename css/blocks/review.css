@@ -129,6 +129,7 @@
 .form__input--textarea{
     min-height: 240px;
     padding-top: 29px;
+    resize: none;
 }
 .controls__element{
     cursor: pointer;
