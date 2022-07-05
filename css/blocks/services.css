@@ -89,11 +89,11 @@ margin-bottom: 21px;
     height: 127px;
     align-items: center;
     justify-content: center;
-    /*filter: grayscale(100%);*/
+    filter: grayscale(100%);
 }
-/*.partners__link:hover{
+.partners__link:hover{
     filter: grayscale(0);
-}*/
+}
 .partners{
     display: flex;
     flex-wrap: wrap;
