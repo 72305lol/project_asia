@@ -1,0 +1,14 @@
+.hero{
+    width: 50%;
+    margin-bottom: 243px;
+}
+.hero__title{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.35;
+    margin-bottom: 26px;
+}
+.hero__about{
+    font-size:18px;
+    margin-bottom: 30px;
+}
